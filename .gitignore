@@ -21,6 +21,10 @@
 # Ignore IDE/editor files
 .idea/
 .vscode/
+microservice_in_go.iml
+modules.xml
+workspace.xml
+vcs.xml
 
 # Ignore Docker related files
 .docker/
