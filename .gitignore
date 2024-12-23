@@ -1,0 +1,44 @@
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Ignore Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Go build directories
+/build/
+/bin/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+microservice_in_go.iml
+modules.xml
+workspace.xml
+vcs.xml
+
+# Ignore Docker related files
+.docker/
+
+# Ignore log files
+*.log
+
+# Ignore system files (Mac/Linux)
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage files
+coverage/
+
+# Ignore other non-relevant files
+*.bak
+*.swp
